@@ -3,68 +3,120 @@
   <head>
     <meta charset="utf-8">
     <title>Anirban's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Otomanopee+One&family=Quicksand&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
-  <body style="background-color:#EAF6F6">
-    <table cellspacing="25">
-      <tr>
-        <td><img style="border-radius: 50%;height: 250px" src="https://i1.sndcdn.com/avatars-oAFSwbm83f9eOxwX-Pnt0ug-t500x500.jpg" alt="Anirban Profile Pic"></td>
-        <td>
-          <h1>Anirban Mukherjee</h1>
-          <p><em><strong>Senior</strong> Software Engineer</em></p>
-        </td>
-      </tr>
-    </table>
+  <body>
+    <div class="myself">
+      <table class="cv" cellspacing="25">
+        <tr>
+          <td style="vertical-align:bottom"><img class="music" src="images/keynote.png" alt="music-img"></td>
+          <td><img class="profile rounded" src="https://i1.sndcdn.com/avatars-oAFSwbm83f9eOxwX-Pnt0ug-t500x500.jpg" alt="Anirban Profile Pic"></td>
+          <td style="vertical-align:bottom">
+            <h1 id="name">Hola</h1>
+            <h1 id="name">Anirban here!</h1>
+            <p>a <span class="pro">Pro</span>grammer</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="hobby">
+      <h3>My Hobbies</h3>
+      <div class="hobby-row">
+        <img class="music-img" src="images/music-hobby.png" alt="music-img">
+        <h3>Making Music</h3>
+        <p>I started learning Hawaiian Guitar when I was 10. Then tried keyboard a little and started learning complete music production. Check 'em out <a href="https://soundcloud.com/anirban_mukherjee">here</a></p>
+      </div>
+      <div class="hobby-row">
+        <img class="video-img" src="images/video-hobby.jpg" alt="video-img">
+        <h3>Editing Videos</h3>
+        <p>There is no point of not able to show the world the places you visited and the skills you got. Editing video is I think an essential hobby, right? Check sample <a href="https://www.facebook.com/100001179221645/videos/2788748834507730/">here</a></p>
+      </div>
+      <div class="hobby-row">
+        <img class="coding-img" src="images/coding-hobby.jpg" alt="coding-img">
+        <h3>Coding</h3>
+        <p>Yup, It's boring. But I liked this logic driven language since my school. Now coding is part of my daily routine. But even outside of work I like Arduino coding and making electronic stuff. Check my GIT repo <a href="https://github.com/AniMukherjee?tab=repositories">here</a></p>
+      </div>
+    </div>
 
     <hr>
-    <h3>My Hobbies</h3>
-    <ul>
-      <li><a href="https://soundcloud.com/anirban_mukherjee">Composing Music</a></li>
-      <li><a href="https://www.facebook.com/100001179221645/videos/2788748834507730/">Editing Vides</a></li>
-    </ul>
+
+    <div class="work">
+      <h3>Work Experience</h3>
+      <table class="center" cellspacing="5">
+        <tr>
+          <td><img class="techm-img" src="https://files.techmahindra.com/static/img/logo.png" alt="techm-img"></td>
+          <td><h4>2013-2016</h4></td>
+          <td style="text-align: right;">Associate Software Engineer, Tech Mahindra LTD</td>
+        </tr>
+        <tr>
+          <td><img class="tcs-img" src="https://www.tcs.com/content/dam/tcs/images/Newtcslogo/logo-white1x.png" alt="tcs-img"></td>
+          <td><h4>2016-2017</h4></td>
+          <td style="text-align: right;">Software Professional, TCS</td>
+        </tr>
+        <tr>
+          <td><img class="ge-img" src="https://www.geaviation.com/sites/default/files/ge-monogram-bluesteel_0.png" alt="ge-img"></td>
+          <td><h4>2017-2019</h4></td>
+          <td style="text-align: right;">Data Engineer, GE Aviation</td>
+        </tr>
+        <tr>
+          <td><img class="legato-img" src="https://www.legatohealth.com/dam/images/210630_images/legatoLogo.jpg" alt="legato-img"></td>
+          <td><h4>2019-</h4></td>
+          <td style="text-align: right;">Senior Software Engineer, Legato Health Technologies LTD</td>
+        </tr>
+      </table>
+    </div>
 
     <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>2013-2016</td>
-        <td>Associate Software Engineer, Tech Mahindra LTD</td>
-      </tr>
-      <tr>
-        <td>2016-2017</td>
-        <td>Software Developer, TCS</td>
-      </tr>
-      <tr>
-        <td>2017-2019</td>
-        <td>Data Engineer, GE Aviation</td>
-      </tr>
-      <tr>
-        <td>2019-</td>
-        <td>Senior Software Engineer, Legato Health Technologies LTD</td>
-      </tr>
-    </table>
+
+    <div class="skill">
+      <h3>Skills</h3>
+      <table class="center" cellspacing="10">
+        <tr>
+          <td style="text-align: left;">Informatica Power Center Developer</td>
+          <td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;">Hadoop & Spark Development</td>
+          <td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;">Spotfire Report Developer</td>
+          <td style="text-align: right;">⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;">Python Programming</td>
+          <td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;">RDBMS SQL</td>
+          <td style="text-align: right;">⭐⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </div>
 
     <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Informatica Power Center Developer</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Hadoop & Spark Development</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Spotfire Report Developer</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Python Programming</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-    </table>
 
-    <hr>
-    <a href="contact-me.html">Contact Me</a>
+    <div class="contact">
+      <h3>Get In Touch</h3>
+      <a href="contact-me.html" class="BUTTON_TNP">Contact Me</a>
+    </div>
+
+    <div class="footer">
+      <table class="cv" cellspacing="25">
+        <tr>
+          <td><a href="https://www.linkedin.com/in/anirbanmukherjee24/"><img class="social" src="images/Linkedin.png" alt="music-img"></a></td>
+          <td><a href="https://twitter.com/Anirban_Mu"><img class="social" src="images/Twitter.png" alt="music-img"></a></td>
+          <td><a href="https://www.facebook.com/anirban.mukherjee.7330/"><img class="social" src="images/facebook.png" alt="music-img"></a></td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
